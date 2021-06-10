@@ -21,4 +21,4 @@ spec:
         privileged: false
         capabilities:
           add:
-          - all
+          - CAP_SYS_ADMIN
