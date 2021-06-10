@@ -1,0 +1,5 @@
+mountPathName: testpath
+mountPath: /time
+hostPath: /etc/localtime
+hostPathType: File
+appName: hostpath

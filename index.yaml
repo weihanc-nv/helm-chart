@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  hostpath:
+  - apiVersion: v2
+    created: "2021-06-10T02:33:02.046721168-07:00"
+    description: A Helm chart for HostPath
+    digest: e547fff36ee3f88a1cb18f1a634d9d2e66b5521f8780d0ecb78fa18a5b54d687
+    name: hostpath
+    type: application
+    urls:
+    - https://weihanc-nv.github.io/helm-chart/hostpath-1.0.0.tgz
+    version: 1.0.0
+  hostpathWithCap:
+  - apiVersion: v2
+    created: "2021-06-10T02:33:02.046929724-07:00"
+    description: A Helm chart for HostPath with capabilities
+    digest: 3418d58022d39e93509e45c4ffc09db2ea1375c594e0fd60d9478e7f0dfb37b3
+    name: hostpathWithCap
+    type: application
+    urls:
+    - https://weihanc-nv.github.io/helm-chart/hostpathWithCap-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-06-10T02:33:02.046321325-07:00"
