@@ -14,17 +14,9 @@ spec:
       labels:
         app: {{ .Values.appName }}
     spec:
-      volumes:
-        - name: {{ .Values.mountPathName }}
-          hostPath:
-            path: {{ .Values.hostPath }}
-            type: {{ .Values.hostPathType }}
       containers:
       - name: {{ .Values.appName }}
         image: k8s.gcr.io/nginx
-        volumeMounts:
-          - name: {{ .Values.mountPathName }}
-            mountPath: {{ .Values.mountPath }}
       securityContext:
         privileged: false
         capabilities:

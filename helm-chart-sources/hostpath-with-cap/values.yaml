@@ -1,5 +1,0 @@
-mountPathName: testpath
-mountPath: /time
-hostPath: /tmp
-hostPathType: Directory
-appName: hostpath-with-cap

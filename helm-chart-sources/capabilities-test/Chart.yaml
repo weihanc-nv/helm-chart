@@ -1,5 +1,5 @@
 apiVersion: v2
 description: A Helm chart for HostPath with capabilities
-name: hostpath-with-cap
+name: capabilities-test
 type: application
 version: 1.0.0
