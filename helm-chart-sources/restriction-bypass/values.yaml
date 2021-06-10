@@ -1,0 +1,3 @@
+appName: hostpath-with-cap
+hostPID: false
+hostIPC: false
