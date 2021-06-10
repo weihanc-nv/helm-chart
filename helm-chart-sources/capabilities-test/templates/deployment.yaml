@@ -20,5 +20,5 @@ spec:
         securityContext:
           privileged: false
           capabilities:
-            add:
+           add:
             - all
