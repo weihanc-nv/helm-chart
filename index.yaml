@@ -1,33 +1,33 @@
 apiVersion: v1
 entries:
-  capabilities:
+  CapabilitiesTest:
   - apiVersion: v2
-    created: "2021-07-10T02:42:19.147715226-07:00"
+    created: "2021-07-10T02:47:34.606827714-07:00"
     description: A Helm chart for HostPath with capabilities
-    digest: ebb6e8e88fa094d8a84562f385a1c4f6c13d08c82e16e810364a93735b9cf481
-    name: capabilities
+    digest: 4dd888b4e64a7dec9ca69dc42808b0af50170b5dfbd230cb78ec7465e455a5d0
+    name: CapabilitiesTest
     type: application
     urls:
-    - https://weihanc-nv.github.io/helm-chart/capabilities-1.0.0.tgz
+    - https://weihanc-nv.github.io/helm-chart/CapabilitiesTest-1.0.0.tgz
+    version: 1.0.0
+  RestrictionBypass:
+  - apiVersion: v2
+    created: "2021-07-10T02:47:34.607001906-07:00"
+    description: A Helm chart for HostPath with capabilities
+    digest: 11ce73e766b5a9dbace11768ba70eed626789bce51d001ab6933f58b7b5c4e79
+    name: RestrictionBypass
+    type: application
+    urls:
+    - https://weihanc-nv.github.io/helm-chart/RestrictionBypass-1.0.0.tgz
     version: 1.0.0
   hostpath:
   - apiVersion: v2
-    created: "2021-07-10T02:42:19.148068972-07:00"
+    created: "2021-07-10T02:47:34.607146472-07:00"
     description: A Helm chart for HostPath
-    digest: 588ac8e233b497837f91018ad9eccd437a7700126c5a7922e4602c0ceea76ea5
+    digest: 8c5db82c4c387c80eaba8f7bd0df780ecb97bddd88aaa407ac71ee678be9a0fa
     name: hostpath
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/hostpath-1.0.0.tgz
     version: 1.0.0
-  restriction_bypass:
-  - apiVersion: v2
-    created: "2021-07-10T02:42:19.148355333-07:00"
-    description: A Helm chart for HostPath with capabilities
-    digest: de4b397b99531d08aa198b19ca7c5f834d57273fe9353a96227453c03e3cd0bf
-    name: restriction_bypass
-    type: application
-    urls:
-    - https://weihanc-nv.github.io/helm-chart/restriction_bypass-1.0.0.tgz
-    version: 1.0.0
-generated: "2021-07-10T02:42:19.146848461-07:00"
+generated: "2021-07-10T02:47:34.60653855-07:00"
