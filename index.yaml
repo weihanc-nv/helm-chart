@@ -2,42 +2,32 @@ apiVersion: v1
 entries:
   capabilities:
   - apiVersion: v2
-    created: "2021-07-10T02:37:41.242222477-07:00"
+    created: "2021-07-10T02:42:19.147715226-07:00"
     description: A Helm chart for HostPath with capabilities
-    digest: 708732cc5d82d53aa4ec735ef5e71a42632f3ae09a62b14b5a93e7cfa566c6e5
+    digest: ebb6e8e88fa094d8a84562f385a1c4f6c13d08c82e16e810364a93735b9cf481
     name: capabilities
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/capabilities-1.0.0.tgz
     version: 1.0.0
-  capabilities-test:
-  - apiVersion: v2
-    created: "2021-07-10T02:37:41.242429134-07:00"
-    description: A Helm chart for HostPath with capabilities
-    digest: e28d20462a3e41f94c8b975101decf72b56edae70d60b4067c742838f693a815
-    name: capabilities-test
-    type: application
-    urls:
-    - https://weihanc-nv.github.io/helm-chart/capabilities-test-1.0.0.tgz
-    version: 1.0.0
   hostpath:
   - apiVersion: v2
-    created: "2021-07-10T02:37:41.242793075-07:00"
+    created: "2021-07-10T02:42:19.148068972-07:00"
     description: A Helm chart for HostPath
-    digest: fcbee5d49045121caa824e472a392d82b60359d5072e8fa7a43c61654d2e131d
+    digest: 588ac8e233b497837f91018ad9eccd437a7700126c5a7922e4602c0ceea76ea5
     name: hostpath
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/hostpath-1.0.0.tgz
     version: 1.0.0
-  restriction-bypass:
+  restriction_bypass:
   - apiVersion: v2
-    created: "2021-07-10T02:37:41.243006091-07:00"
+    created: "2021-07-10T02:42:19.148355333-07:00"
     description: A Helm chart for HostPath with capabilities
-    digest: ae066b4e2751b7ef59934df385ca7a7f1fe613a737f4fe7e1a423848f2d1c617
-    name: restriction-bypass
+    digest: de4b397b99531d08aa198b19ca7c5f834d57273fe9353a96227453c03e3cd0bf
+    name: restriction_bypass
     type: application
     urls:
-    - https://weihanc-nv.github.io/helm-chart/restriction-bypass-1.0.0.tgz
+    - https://weihanc-nv.github.io/helm-chart/restriction_bypass-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-10T02:37:41.241758371-07:00"
+generated: "2021-07-10T02:42:19.146848461-07:00"

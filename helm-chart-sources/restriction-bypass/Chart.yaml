@@ -1,5 +1,0 @@
-apiVersion: v2
-description: A Helm chart for HostPath with capabilities
-name: restriction-bypass
-type: application
-version: 1.0.0
