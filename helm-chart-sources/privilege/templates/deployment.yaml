@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
       - name: {{ .Values.appName }}
+        imagePullPolicy: Always
         image: k8s.gcr.io/pause
         securityContext:
           allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}
