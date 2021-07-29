@@ -1,0 +1,3 @@
+appName: privileged-app
+privileged: false
+privilegeEscalation: false
