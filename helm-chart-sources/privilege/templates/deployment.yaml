@@ -18,7 +18,6 @@ spec:
       - name: {{ .Values.appName }}
         imagePullPolicy: Always
         image: k8s.gcr.io/pause
-        resources: {}
-        securityContext:
-          allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}
-          privileged: {{ .Values.privileged }}
+      securityContext:
+        allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}
+        privileged: {{ .Values.privileged }}
