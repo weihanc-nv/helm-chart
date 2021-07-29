@@ -19,4 +19,4 @@ spec:
         image: k8s.gcr.io/nginx
         securityContext:
            privileged: {{ .Values.privileged }}
-           privilegeEscalation: {{ .Values.privilegeEscalation }}
+           allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}

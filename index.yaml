@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   capabilities:
   - apiVersion: v2
-    created: "2021-07-29T13:23:10.468464804-07:00"
+    created: "2021-07-29T13:33:56.184823378-07:00"
     description: A Helm chart for HostPath with capabilities
-    digest: faf238004dd52cb64383dde6c1cac0eb8e6adbaaf760f24d98fa738bff442f85
+    digest: 13056dff7fafd49dae5adfd29b81a29aceed30da5bd1f13563b1af72028fa966
     name: capabilities
     type: application
     urls:
@@ -12,9 +12,9 @@ entries:
     version: 1.0.0
   hostpath:
   - apiVersion: v2
-    created: "2021-07-29T13:23:10.468605655-07:00"
+    created: "2021-07-29T13:33:56.184967254-07:00"
     description: A Helm chart for HostPath
-    digest: d7c034e2c3a7e444cf2babb6a8da3857d697a9f4ef8db5d16b70f71a0962f7ba
+    digest: 9484cbfc8930b99359faa2cc02a579ce500038b33308a02124ecd380062f9855
     name: hostpath
     type: application
     urls:
@@ -22,9 +22,9 @@ entries:
     version: 1.0.0
   privilege:
   - apiVersion: v2
-    created: "2021-07-29T13:23:10.46882726-07:00"
+    created: "2021-07-29T13:33:56.185211527-07:00"
     description: A Helm chart for privilege test
-    digest: 4139ef0180eb66bd08f17eb945babb8ed32f4a6cf598c9b91b77841382b60688
+    digest: f27b5dbec6e59416e867da72ea5ca120d1d905f6ffa1aa527480c0064da2bedc
     name: privilege
     type: application
     urls:
@@ -32,12 +32,12 @@ entries:
     version: 1.0.0
   restriction:
   - apiVersion: v2
-    created: "2021-07-29T13:23:10.468950853-07:00"
+    created: "2021-07-29T13:33:56.185333691-07:00"
     description: A Helm chart for HostPath with capabilities
-    digest: 76044e12b15dedb1933f895213fce7babb1906e21af8d72ab91c318dfa245e46
+    digest: a50db06bd12528a3fa327af9f709f1c580aa0a80684bf255a53c3d78be41ef12
     name: restriction
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/restriction-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-29T13:23:10.467976001-07:00"
+generated: "2021-07-29T13:33:56.18456905-07:00"
