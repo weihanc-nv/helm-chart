@@ -17,6 +17,5 @@ spec:
       containers:
       - name: {{ .Values.appName }}
         image: k8s.gcr.io/nginx
-        securityContext:
-           privileged: {{ .Values.privileged }}
-           allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}
+      privileged: {{ .Values.privileged }}
+      allowPrivilegeEscalation: {{ .Values.privilegeEscalation }}
