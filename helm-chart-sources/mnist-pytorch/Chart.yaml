@@ -1,0 +1,4 @@
+apiVersion: v2
+description: A Helm chart for mnist-pytorch
+name: mnist-pytorch
+version: 1.0.0

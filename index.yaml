@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   capabilities:
   - apiVersion: v2
-    created: "2021-08-09T00:35:37.582560645-07:00"
+    created: "2022-01-25T12:52:37.154932197+08:00"
     description: A Helm chart for HostPath with capabilities
-    digest: 1d3b659214b4ebcfbcb45679013061a6e949f409d5b9f5c089a670fce0f4d956
+    digest: 058e3cac37a95c03d6ff7bf5669c54e359f35e0810b7d7457e2ede7da1d80182
     name: capabilities
     type: application
     urls:
@@ -12,19 +12,28 @@ entries:
     version: 1.0.0
   hostpath:
   - apiVersion: v2
-    created: "2021-08-09T00:35:37.582689386-07:00"
+    created: "2022-01-25T12:52:37.1552033+08:00"
     description: A Helm chart for HostPath
-    digest: 73e42211b1d48e440480ec8dec12ec881f5f2d330f33f5d27b57cb1ce3a8bd42
+    digest: 193ab05afc9b84aaccd1534041627074f9cb0d62672039cd96e1da13be59331e
     name: hostpath
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/hostpath-1.0.0.tgz
     version: 1.0.0
+  mnist-pytorch:
+  - apiVersion: v2
+    created: "2022-01-25T12:52:37.155539003+08:00"
+    description: A Helm chart for mnist-pytorch
+    digest: c68cdc8f21d454f45d33f12549596b702964c2dd9d27e51dd61d1c027d10210a
+    name: mnist-pytorch
+    urls:
+    - https://weihanc-nv.github.io/helm-chart/mnist-pytorch-1.0.0.tgz
+    version: 1.0.0
   privilege:
   - apiVersion: v2
-    created: "2021-08-09T00:35:37.583044637-07:00"
+    created: "2022-01-25T12:52:37.155915007+08:00"
     description: A Helm chart for privilege test
-    digest: 882e79b474af21bfcfe30843b8f96a19f171925425158e317a13ed0c70211795
+    digest: 76bba77c3a9c9cfff739c5955d6310b4dd0474c90e19f17031a8b20c80ed6e3b
     name: privilege
     type: application
     urls:
@@ -32,12 +41,12 @@ entries:
     version: 1.0.0
   restriction:
   - apiVersion: v2
-    created: "2021-08-09T00:35:37.583318179-07:00"
+    created: "2022-01-25T12:52:37.156420613+08:00"
     description: A Helm chart for HostPath with capabilities
-    digest: 9bc5340b958b254baaa7d06ababb2dc2de3d0fcfbaee18e5975508f05d299dc5
+    digest: 6ee603ff4067974ac624b88af5d942df9561121b0f02e4b95fd15cbf0a1e79e3
     name: restriction
     type: application
     urls:
     - https://weihanc-nv.github.io/helm-chart/restriction-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-09T00:35:37.58233521-07:00"
+generated: "2022-01-25T12:52:37.153920186+08:00"
