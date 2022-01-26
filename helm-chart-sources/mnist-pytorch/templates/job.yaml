@@ -1,5 +1,5 @@
-apiVersion: apps/v1
-kind: DaemonSet
+apiVersion: batch/v1
+kind: Job
 metadata:
   name: {{ .Values.appName}}
   labels: 
@@ -23,6 +23,7 @@ spec:
         value: "gpusUnavailable"
 {{- end }}
       terminationGracePeriodSeconds: 5
+      restartPolicy: Never
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         name: {{ .Values.appName}}
