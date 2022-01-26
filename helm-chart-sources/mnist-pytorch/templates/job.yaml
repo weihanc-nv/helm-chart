@@ -22,7 +22,6 @@ spec:
         operator: Equal
         value: "gpusUnavailable"
 {{- end }}
-      terminationGracePeriodSeconds: 5
       restartPolicy: Never
       containers:
       - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
