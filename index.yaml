@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   capabilities:
   - apiVersion: v2
-    created: "2022-01-26T14:45:15.782154999+08:00"
+    created: "2022-01-26T15:27:19.190222321+08:00"
     description: A Helm chart for HostPath with capabilities
     digest: 11932206549ac7c082f3285579a6dce82f30db1c530fcddcbd539589815b9bff
     name: capabilities
@@ -12,7 +12,7 @@ entries:
     version: 1.0.0
   hostpath:
   - apiVersion: v2
-    created: "2022-01-26T14:45:15.782515799+08:00"
+    created: "2022-01-26T15:27:19.19058032+08:00"
     description: A Helm chart for HostPath
     digest: bc36484efc3793ee8515ce254b5f7bd5e5768583d3b5d3acc6f78fb218aebcce
     name: hostpath
@@ -22,16 +22,16 @@ entries:
     version: 1.0.0
   mnist-pytorch:
   - apiVersion: v2
-    created: "2022-01-26T14:45:15.782933198+08:00"
+    created: "2022-01-26T15:27:19.19087432+08:00"
     description: A Helm chart for mnist-pytorch
-    digest: b327275b4e54762320ea4d760997a61552f92603b0611598e5bbf5c7019cd3ae
+    digest: e92d910528e63b0947a6915cbc9006926cb4e2376b89b1d08efdb51590f0a969
     name: mnist-pytorch
     urls:
     - https://weihanc-nv.github.io/helm-chart/mnist-pytorch-1.0.0.tgz
     version: 1.0.0
   privilege:
   - apiVersion: v2
-    created: "2022-01-26T14:45:15.783307898+08:00"
+    created: "2022-01-26T15:27:19.19118592+08:00"
     description: A Helm chart for privilege test
     digest: 1ef6aee0f22eb1003d76f4ca4f292255627559715a2d1cd7c40edc3b2323a306
     name: privilege
@@ -41,7 +41,7 @@ entries:
     version: 1.0.0
   restriction:
   - apiVersion: v2
-    created: "2022-01-26T14:45:15.783703397+08:00"
+    created: "2022-01-26T15:27:19.19165122+08:00"
     description: A Helm chart for HostPath with capabilities
     digest: 26d8a91f77d76ede9a68745a41b30ab9800e8137a3bfd56da14ca466be26bc8a
     name: restriction
@@ -49,4 +49,4 @@ entries:
     urls:
     - https://weihanc-nv.github.io/helm-chart/restriction-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-26T14:45:15.7810549+08:00"
+generated: "2022-01-26T15:27:19.189807221+08:00"
